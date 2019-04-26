@@ -6,6 +6,8 @@
 * [CSDN博客](http://blog.csdn.net/c406495762 "悬停显示")
 * [CSDN爬虫专栏](http://blog.csdn.net/column/details/15321.html "悬停显示")<br>
 * 学习交流群【328127489】<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=e70f3fcff3761450fda9b43eadc1910dac308a962ef9e3e87941cd2c681c4bb4"><img border="0" src="https://github.com/Jack-Cherish/Pictures/blob/master/qqgroup.png" alt="Coder" title="Coder"></a><br>
+* 分享技术，乐享生活：Jack Cui公众号每周五推送“程序员欢乐送”系列资讯类文章，欢迎您的关注！
+<div align="center"><img border="0" src="https://ww2.sinaimg.cn/large/0072Lfvtly1fxuhd2t2jqj309k09kglk.jpg" alt="Coder" title="gongzhonghao" with="200" height="200"></div>
 
 ## 声明
 
@@ -38,6 +40,7 @@
     * [网易云音乐批量下载](https://github.com/Jack-Cherish/python-spider/tree/master/Netease "悬停显示")
     * [B站视频和弹幕批量下载](https://github.com/Jack-Cherish/python-spider/tree/master/bilibili "悬停显示")
     * [京东商品晒单图下载](https://github.com/Jack-Cherish/python-spider/tree/master/dingdong "悬停显示")
+    * [正方教务管理系统爬虫](https://github.com/Jack-Cherish/python-spider/tree/master/zhengfang_system_spider "悬停显示")
 * [其它](#其它)
 
 ## 爬虫小工具
@@ -242,7 +245,7 @@
         -d	保存视频的文件夹名
         -k	B站搜索的关键字
         -p	下载搜索结果前多少页
-
+	
  * jingdong：京东商品晒单图下载
  
  	效果图：
@@ -256,11 +259,27 @@
 	使用说明：
 	
         python jd.py -k 芒果
-
-        三个参数：
+	
+         三个参数：
         -d	保存图片的路径，默认为fd.py文件所在文件夹
         -k	搜索关键词
         -n  	下载商品的晒单图个数，即n个商店的晒单图
+
+ * zhengfang_system_spider：对正方教务管理系统个人课表，学生成绩，绩点等简单爬取
+ 
+ 	效果图：
+	
+	![image](/zhengfang_system_spider/screenshot/zf.png)
+ 	
+	原理说明：
+	
+	暂无
+	
+	使用说明：
+	
+        cd zhengfang_system_spider
+        pip install -r requirements.txt
+        python spider.py
 
 ## 其它
 
